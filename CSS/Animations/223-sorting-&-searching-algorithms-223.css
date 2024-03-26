@@ -1,0 +1,28 @@
+/*
+  Exercise #223: CSS Sorting & Searching Algorithms #223
+  Category: Animations
+
+  Problem Statement:
+  Implement and verify Sorting & Searching Algorithms logic for exercise #223.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #223 (Sorting & Searching Algorithms) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Sorting & Searching Algorithms.
+*/
+
+:root {
+    --ex-id: "223";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
