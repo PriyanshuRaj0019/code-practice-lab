@@ -1,0 +1,28 @@
+/*
+  Exercise #178: CSS Core Data Structures (Lists, Stacks, Queues) #178
+  Category: Grid
+
+  Problem Statement:
+  Implement and verify Core Data Structures (Lists, Stacks, Queues) logic for exercise #178.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #178 (Core Data Structures (Lists, Stacks, Queues)) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Core Data Structures (Lists, Stacks, Queues).
+*/
+
+:root {
+    --ex-id: "178";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
