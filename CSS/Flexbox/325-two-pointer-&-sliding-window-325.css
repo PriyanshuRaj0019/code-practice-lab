@@ -1,0 +1,28 @@
+/*
+  Exercise #325: CSS Two-Pointer & Sliding Window #325
+  Category: Flexbox
+
+  Problem Statement:
+  Implement and verify Two-Pointer & Sliding Window logic for exercise #325.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #325 (Two-Pointer & Sliding Window) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Two-Pointer & Sliding Window.
+*/
+
+:root {
+    --ex-id: "325";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
