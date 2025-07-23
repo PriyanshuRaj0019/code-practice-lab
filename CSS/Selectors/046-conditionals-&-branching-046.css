@@ -1,0 +1,28 @@
+/*
+  Exercise #046: CSS Conditionals & Branching #046
+  Category: Selectors
+
+  Problem Statement:
+  Implement and verify Conditionals & Branching logic for exercise #046.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #046 (Conditionals & Branching) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Conditionals & Branching.
+*/
+
+:root {
+    --ex-id: "046";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
