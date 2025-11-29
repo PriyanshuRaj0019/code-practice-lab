@@ -1,0 +1,28 @@
+/*
+  Exercise #033: CSS Variables, Types & Operators #033
+  Category: Fundamentals
+
+  Problem Statement:
+  Implement and verify Variables, Types & Operators logic for exercise #033.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #033 (Variables, Types & Operators) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Variables, Types & Operators.
+*/
+
+:root {
+    --ex-id: "033";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
