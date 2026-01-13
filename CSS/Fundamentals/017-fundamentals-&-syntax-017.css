@@ -1,0 +1,28 @@
+/*
+  Exercise #017: CSS Fundamentals & Syntax #017
+  Category: Fundamentals
+
+  Problem Statement:
+  Implement and verify Fundamentals & Syntax logic for exercise #017.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #017 (Fundamentals & Syntax) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Fundamentals & Syntax.
+*/
+
+:root {
+    --ex-id: "017";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
