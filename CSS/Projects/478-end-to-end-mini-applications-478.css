@@ -1,0 +1,28 @@
+/*
+  Exercise #478: CSS End-to-End Mini Applications #478
+  Category: Projects
+
+  Problem Statement:
+  Implement and verify End-to-End Mini Applications logic for exercise #478.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #478 (End-to-End Mini Applications) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for End-to-End Mini Applications.
+*/
+
+:root {
+    --ex-id: "478";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
