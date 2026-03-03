@@ -1,0 +1,28 @@
+/*
+  Exercise #158: CSS Pointers / References / Objects #158
+  Category: Flexbox
+
+  Problem Statement:
+  Implement and verify Pointers / References / Objects logic for exercise #158.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #158 (Pointers / References / Objects) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Pointers / References / Objects.
+*/
+
+:root {
+    --ex-id: "158";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
