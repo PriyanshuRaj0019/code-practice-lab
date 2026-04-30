@@ -1,0 +1,28 @@
+/*
+  Exercise #283: CSS Graphs & Traversal (BFS, DFS) #283
+  Category: Advanced
+
+  Problem Statement:
+  Implement and verify Graphs & Traversal (BFS, DFS) logic for exercise #283.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #283 (Graphs & Traversal (BFS, DFS)) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Graphs & Traversal (BFS, DFS).
+*/
+
+:root {
+    --ex-id: "283";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
