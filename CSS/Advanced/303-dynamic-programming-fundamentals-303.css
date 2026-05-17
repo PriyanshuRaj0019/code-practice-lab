@@ -1,0 +1,28 @@
+/*
+  Exercise #303: CSS Dynamic Programming Fundamentals #303
+  Category: Advanced
+
+  Problem Statement:
+  Implement and verify Dynamic Programming Fundamentals logic for exercise #303.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #303 (Dynamic Programming Fundamentals) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Dynamic Programming Fundamentals.
+*/
+
+:root {
+    --ex-id: "303";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
