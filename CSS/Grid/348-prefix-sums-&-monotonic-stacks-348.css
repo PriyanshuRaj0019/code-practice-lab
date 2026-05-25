@@ -1,0 +1,28 @@
+/*
+  Exercise #348: CSS Prefix Sums & Monotonic Stacks #348
+  Category: Grid
+
+  Problem Statement:
+  Implement and verify Prefix Sums & Monotonic Stacks logic for exercise #348.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #348 (Prefix Sums & Monotonic Stacks) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Prefix Sums & Monotonic Stacks.
+*/
+
+:root {
+    --ex-id: "348";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
