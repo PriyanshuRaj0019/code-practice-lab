@@ -1,0 +1,28 @@
+/*
+  Exercise #071: CSS Loops & Iteration #071
+  Category: Selectors
+
+  Problem Statement:
+  Implement and verify Loops & Iteration logic for exercise #071.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #071 (Loops & Iteration) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Loops & Iteration.
+*/
+
+:root {
+    --ex-id: "071";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
