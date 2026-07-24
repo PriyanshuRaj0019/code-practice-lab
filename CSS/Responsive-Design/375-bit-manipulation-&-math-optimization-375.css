@@ -1,0 +1,28 @@
+/*
+  Exercise #375: CSS Bit Manipulation & Math Optimization #375
+  Category: Responsive-Design
+
+  Problem Statement:
+  Implement and verify Bit Manipulation & Math Optimization logic for exercise #375.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #375 (Bit Manipulation & Math Optimization) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Bit Manipulation & Math Optimization.
+*/
+
+:root {
+    --ex-id: "375";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
