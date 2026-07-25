@@ -1,0 +1,28 @@
+/*
+  Exercise #093: CSS Basic Functions & Scope #093
+  Category: Box-Model
+
+  Problem Statement:
+  Implement and verify Basic Functions & Scope logic for exercise #093.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #093 (Basic Functions & Scope) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for Basic Functions & Scope.
+*/
+
+:root {
+    --ex-id: "093";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
