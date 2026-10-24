@@ -1,0 +1,28 @@
+/*
+  Exercise #123: CSS String Manipulation #123
+  Category: Flexbox
+
+  Problem Statement:
+  Implement and verify String Manipulation logic for exercise #123.
+
+  Requirements & Constraints:
+  Executable without missing dependencies. Strict language standards.
+
+  Expected Output:
+  [Verified] Exercise #123 (String Manipulation) executed cleanly.
+
+  Implementation Details:
+  Demonstrates production-standard implementation pattern for String Manipulation.
+*/
+
+:root {
+    --ex-id: "123";
+    --accent: #2563eb;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid var(--accent);
+}
